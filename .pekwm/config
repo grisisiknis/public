@@ -1,0 +1,18 @@
+INCLUDE = "$_PEKWM_ETC_PATH/config_system"
+
+Files {
+    Theme = "/usr/share/pekwm/themes/kde4"
+}
+
+Screen {
+    Workspaces = "1"
+    WorkspacesPerRow = "1"
+    WorkspaceNames = "01;02;03;04;05;06;07;08;09"
+
+    Placement {
+        Model = "MouseTopLeft"
+	WorkspacePlacement = "Smart"
+	TransientOnParent  = "True"
+	
+    }
+}
